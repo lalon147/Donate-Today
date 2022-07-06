@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url("/images/donation13.jpg");
+    height: 1000px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px 200px;
+    font-size: 40px;
+
+}
+.donate-now{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    left:15% ;
+    
+       
+}
+
+.donate-today h1,p{
+    text-align: center;
+     
+}
+.donate-today p{
+  color:gray;
+  margin-top: 20px;
+
+}
+    
+
+.tk-boxes{
+    display: flex;
+    padding:0 20%;
+}
+.tk-box{
+    background-color: whitesmoke;
+    text-align: center;
+    padding:55px;
+    margin: 50px 5px;
+    height:90px;
+    width:90px;
+    color:gray;
+}
+.custom-amount input {
+  width:60%;
+  border:0;
+  outline:0;
+  border-bottom: 2px solid gray;
+  margin:10px 200px; 
+}
+.our-donate-plan h1,p{
+    text-align: center;
+}
+.donate-plans{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
