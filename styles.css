@@ -28,9 +28,12 @@
     
        
 }
-
+.donate-today{
+    margin-top:50px ;
+}
 .donate-today h1,p{
     text-align: center;
+    font-size: larger;
      
 }
 .donate-today p{
@@ -38,7 +41,9 @@
   margin-top: 20px;
 
 }
-    
+.donate-today h1{
+    font-size: 40px;
+}   
 
 .tk-boxes{
     display: flex;
@@ -60,20 +65,83 @@
   border-bottom: 2px solid gray;
   margin:10px 200px; 
 }
+.our-donate-plan{
+    margin: 50px;
+}
 .our-donate-plan h1,p{
     text-align: center;
+    margin-top: 10px;
 }
 .donate-plans{
     display: flex;
+    padding: 50px;
+    
+}
+#donate-plan1{
+   background-color: burlywood;
+   border-radius: 10px;
+   margin:10px;
+   text-align: justify;
+   padding: 20px 30px ;
+}
+#donate-plan2{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin:10px;
+    text-align: justify;
+    padding: 20px 30px ;
+ }
+#donate-plan3{
+    background-color:gray;
+    border-radius: 10px;
+    margin:10px;
+    text-align: justify;
+    padding: 20px 30px ;
+ }
+#donate-plan3 p{
+    text-align: justify;
+}  
+#donate-plan1 p{
+text-align: justify;
+} 
+#donate-plan2 p{
+    text-align: justify;
 }
 
+.as-seen-in{
 
+}
 
-
-
-
-
-
-
-
-
+.get-my-updates h1{
+   text-align: center;
+   font-size: 40px;
+}
+.get-my-updates p{
+    color: gray;
+}
+.subscribe-form input{
+    width:310px;
+    height:40px;
+    margin-left:450px;
+    margin-top: 50px;
+    
+  
+}
+.subscribe{
+    height: 45px;
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 5px;
+    
+    
+}
+.subscribe-form{
+    background-color: whitesmoke;
+    margin-top:50px ;
+    padding-bottom:25px;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    margin-top: 20px;;
+}
